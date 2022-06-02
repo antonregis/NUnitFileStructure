@@ -7,8 +7,6 @@ namespace Framework.Tests
     [TestFixture]
     class TestCondition_003 : Base
     {
-        // [OneTimeSetUp] should be placed on the first TestCondition_001.cs to initialize ExtentReports
-
         [Test]
         public void TC_003_01()
         {
