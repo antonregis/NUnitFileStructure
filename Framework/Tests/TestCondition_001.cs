@@ -35,10 +35,12 @@ namespace Framework.Tests
         }
 
         [Test]
-        public void TC_001_03()
+        public void TC_001_03()            
         {
             // Code may look like this below
-            
+
+            test = extent.CreateTest(System.Reflection.MethodBase.GetCurrentMethod().Name);
+
             try
             {
                 // Arrange
