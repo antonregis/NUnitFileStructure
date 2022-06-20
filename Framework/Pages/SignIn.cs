@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿// This is just a placeholder file.
+
+using NUnit.Framework;
 using OpenQA.Selenium;
 using SeleniumExtras.PageObjects;
 using static Framework.Global.GlobalDefinitions;
@@ -33,14 +35,7 @@ namespace Framework.Pages
 
         public void LoginSteps()
         {
-            try
-            {
-                // Code here
-            }
-            catch (Exception e)
-            {
-                Assert.Fail(e.Message);
-            }
+           // code here
         }
     }
 }
